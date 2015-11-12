@@ -22,7 +22,7 @@ RUN adduser --disabled-login --gecos 'Tengine' nginx
 
 # Install Tengine Shell
 WORKDIR /home/nginx
-RUN su nginx -c 'git clone https://github.com/alibaba/tengine.git'
+RUN su nginx -c 'git clone https://git.coding.net/webx32/tengine.git'
 
 WORKDIR /home/nginx/tengine
 RUN su nginx -c 'mv packages/debian .'
