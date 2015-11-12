@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM daocloud.io/library/ubuntu:latest
 MAINTAINER Howl王 <howl.wong@gmail.com>
 
 # Let the conatiner know that there is no tty
